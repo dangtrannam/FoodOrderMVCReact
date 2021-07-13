@@ -1,0 +1,27 @@
+﻿//tsconfig
+
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noResolve": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react"
+  },
+  "include": [
+    "./Content/src/**/*"
+  ],
+  "exclude": [
+    "./plugins/**/*",
+    "./typings/**/*",
+    "./built/**/*",
+    "node_modules",
+    "wwwroot",
+    "Scripts/*"
+  ]
+
+}
